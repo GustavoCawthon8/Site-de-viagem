@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F7F8FC;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+#container_app {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#menus .icon-box {
+  background-color: #e0e0e0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menus .icon-box i {
+  font-size: 24px;
+  color: #007bff;
+}
+
+#textosPaisagem {
+  display: flex;
+  justify-content: space-between;
+}
+
+#paisagens .card {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+#paisagens .card-title {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+#paisagens .card-text {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+#paisagens img {
+  border-radius: 12px;
+  height: 120px;
+  object-fit: cover;
+}
